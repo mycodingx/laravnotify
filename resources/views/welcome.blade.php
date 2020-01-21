@@ -5,12 +5,12 @@
         <div class="row">
             <div class="col-12 mt-5">
                 <div class="text-center">
-                    <h1 class="text-success logo-class">Laranotify</h1>
+                    <h1 class="text-success logo-class">Laravnotify</h1>
                     <div class="mt-5">
                         <svg id="b5d1da7b-a9c6-4711-8d73-fa7937ec989e" data-name="Layer 1"
                              xmlns="http://www.w3.org/2000/svg" width="688" height="450.80704"
                              viewBox="0 0 888 710.80704">
-                            <title>server_cluster</title>
+                            <title>Laravel Realtime Notification</title>
                             <path d="M600.93555,699.40352a260.06372,260.06372,0,1,1,183.89355-76.1709A258.36518,258.36518,0,0,1,600.93555,699.40352Zm0-518.12891c-142.29688,0-258.06446,115.76758-258.06446,258.06494s115.76758,258.064,258.06446,258.064S859,581.63692,859,439.33955,743.23242,181.27461,600.93555,181.27461Z"
                                   transform="translate(-156 -94.59648)" fill="#ccc"/>
                             <rect x="469" y="509.90391" width="262" height="195"

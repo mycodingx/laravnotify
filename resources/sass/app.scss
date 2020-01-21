@@ -4,6 +4,9 @@
 @import 'variables';
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+@import "~@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "~@fortawesome/fontawesome-free/scss/solid.scss";
+@import "~@fortawesome/fontawesome-free/scss/brands.scss";
 
 .logo-class {
   font-size: 52px;
@@ -12,4 +15,32 @@
   margin-bottom: 60px;
   margin-top: 30px;
   text-decoration: underline;
+}
+
+.notify {
+  &:after {
+    content: none;
+  }
+}
+
+.noti-icon {
+  font-size: 24px;
+}
+
+.noti-badge {
+  font-size: 10px;
+  position: absolute;
+  top: 1px;
+  right: -3px;
+}
+
+.logo {
+  letter-spacing: 5px;
+  text-decoration: underline;
+}
+
+.cus-page {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
 }

@@ -18,3 +18,10 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/contact', 'SiteController@contact')->name('contact');
+Route::post('/message', 'SiteController@message')->name('message');
+Route::get('/message/{id}', 'HomeController@showMessage')->name('message.show');
+Route::get('/markAsRead', function () {
+    auth()->user()->unreadNotifications->markAsRead();
+});
+
